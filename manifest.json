@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "МЭШ — недельная выгрузка преподавателя",
+  "version": "0.5.9",
+  "description": "Собирает отчёт по МЭШ и по указанному адресу отправляет CSV через Яндекс Почту.",
+  "permissions": ["activeTab", "storage", "tabs"],
+  "host_permissions": ["https://school.mos.ru/spo/teacher/*", "https://mail.yandex.ru/*"],
+  "action": {
+    "default_title": "Собрать отчет МЭШ",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://school.mos.ru/spo/teacher/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://mail.yandex.ru/*"],
+      "js": ["mail.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+

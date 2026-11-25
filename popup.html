@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Выгрузка МЭШ</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <h1>Недельная выгрузка МЭШ</h1>
+      <label for="weekStart">Начало недели для отчёта</label>
+      <input id="weekStart" type="date">
+      <label for="adminEmail">Email администрации</label>
+      <input id="adminEmail" type="email" autocomplete="email" placeholder="admin@school.ru">
+      <p id="hint">Нажмите один раз: расширение в фоновой вкладке проверит расписание, затем само откроет тематическое планирование → шаг 3. Для нужной недели предварительно выберите её в расписании МЭШ; между разделами вручную переключаться не нужно.</p>
+      <button id="collect">Собрать расписание и КТП</button>
+      <button id="export" class="secondary">Скачать CSV</button>
+      <button id="clear" class="text">Очистить сохраненные данные</button>
+      <output id="status" aria-live="polite"></output>
+      <p class="note">Если адрес заполнен, CSV автоматически отправится через Яндекс Почту с вложением. Расширение использует открытую сессию Яндекса и не просит пароль.</p>
+    </main>
+    <script src="report-core.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
+
+

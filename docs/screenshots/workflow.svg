@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+  <title id="title">Этапы сбора и отправки недельного отчёта</title>
+  <desc id="desc">Три этапа: сбор расписания и КТП, скачивание CSV или автоматическая отправка через Яндекс Почту.</desc>
+  <rect width="1000" height="520" rx="18" fill="#f5f7fb"/>
+  <text x="56" y="66" font-family="Segoe UI, Arial" font-size="25" font-weight="700" fill="#202b3a">Что происходит после нажатия «Собрать»</text>
+  <rect x="55" y="110" width="260" height="255" rx="16" fill="#fff" stroke="#cbd8ea" stroke-width="2"/>
+  <circle cx="88" cy="148" r="20" fill="#1769d2"/><text x="82" y="155" font-family="Segoe UI, Arial" font-size="19" font-weight="700" fill="#fff">1</text>
+  <text x="120" y="155" font-family="Segoe UI, Arial" font-size="19" font-weight="700" fill="#243144">Сбор МЭШ</text>
+  <text x="80" y="205" font-family="Segoe UI, Arial" font-size="15" fill="#526075">Фоновая вкладка проверяет:</text>
+  <text x="80" y="237" font-family="Segoe UI, Arial" font-size="15" fill="#526075">• занятия и темы</text>
+  <text x="80" y="267" font-family="Segoe UI, Arial" font-size="15" fill="#526075">• домашние задания</text>
+  <text x="80" y="297" font-family="Segoe UI, Arial" font-size="15" fill="#526075">• материалы занятия</text>
+  <text x="80" y="327" font-family="Segoe UI, Arial" font-size="15" fill="#526075">• таблицу КТП, шаг 3</text>
+  <path d="M324 237h43" stroke="#9aabc2" stroke-width="3"/><path d="m356 228 12 9-12 9" fill="none" stroke="#9aabc2" stroke-width="3"/>
+  <rect x="375" y="110" width="250" height="255" rx="16" fill="#fff" stroke="#cbd8ea" stroke-width="2"/>
+  <circle cx="408" cy="148" r="20" fill="#1769d2"/><text x="402" y="155" font-family="Segoe UI, Arial" font-size="19" font-weight="700" fill="#fff">2</text>
+  <text x="440" y="155" font-family="Segoe UI, Arial" font-size="19" font-weight="700" fill="#243144">Подготовка</text>
+  <rect x="405" y="195" width="190" height="52" rx="8" fill="#eaf1fb"/>
+  <text x="424" y="227" font-family="Segoe UI, Arial" font-size="16" font-weight="600" fill="#174c8f">Сформировать CSV</text>
+  <text x="405" y="284" font-family="Segoe UI, Arial" font-size="15" fill="#526075">Отчёт сохраняется</text>
+  <text x="405" y="310" font-family="Segoe UI, Arial" font-size="15" fill="#526075">локально в профиле.</text>
+  <text x="405" y="344" font-family="Segoe UI, Arial" font-size="13" fill="#687487">Загрузка вручную доступна всегда.</text>
+  <path d="M634 237h43" stroke="#9aabc2" stroke-width="3"/><path d="m666 228 12 9-12 9" fill="none" stroke="#9aabc2" stroke-width="3"/>
+  <rect x="685" y="110" width="260" height="255" rx="16" fill="#fff" stroke="#cbd8ea" stroke-width="2"/>
+  <circle cx="718" cy="148" r="20" fill="#1769d2"/><text x="712" y="155" font-family="Segoe UI, Arial" font-size="19" font-weight="700" fill="#fff">3</text>
+  <text x="750" y="155" font-family="Segoe UI, Arial" font-size="19" font-weight="700" fill="#243144">Результат</text>
+  <text x="715" y="210" font-family="Segoe UI, Arial" font-size="15" fill="#526075">Email заполнен?</text>
+  <rect x="715" y="232" width="92" height="38" rx="8" fill="#e8f5ed"/>
+  <text x="742" y="257" font-family="Segoe UI, Arial" font-size="15" font-weight="700" fill="#287448">Да</text>
+  <rect x="823" y="232" width="92" height="38" rx="8" fill="#eaf1fb"/>
+  <text x="850" y="257" font-family="Segoe UI, Arial" font-size="15" font-weight="700" fill="#174c8f">Нет</text>
+  <text x="715" y="302" font-family="Segoe UI, Arial" font-size="14" fill="#526075">Да — отправить автоматически.</text>
+  <text x="715" y="329" font-family="Segoe UI, Arial" font-size="14" fill="#526075">Нет — скачать кнопкой CSV.</text>
+  <rect x="55" y="400" width="890" height="70" rx="12" fill="#fff4dd"/>
+  <text x="78" y="430" font-family="Segoe UI, Arial" font-size="15" font-weight="700" fill="#714f11">Не закрывайте фоновую вкладку до завершения.</text>
+  <text x="78" y="453" font-family="Segoe UI, Arial" font-size="14" fill="#714f11">При необходимости войдите в МЭШ или Яндекс Почту в той же вкладке.</text>
+  <text x="55" y="498" font-family="Segoe UI, Arial" font-size="12" fill="#687487">Иллюстрация процесса по текущей логике расширения.</text>
+</svg>
